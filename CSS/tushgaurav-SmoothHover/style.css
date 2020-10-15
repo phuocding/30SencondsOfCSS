@@ -1,0 +1,12 @@
+/* The transition property allows front-end web developers to create smooth 
+and visually appealing hover effects on links or any other element. */
+
+a {
+  font-size: 30px;
+  color: #004266;
+  transition: all 0.2s linear;
+}
+
+a:hover {
+  color: #78cdf5;
+}
