@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Full Screen Mode</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <p>
+        <em
+          >Click the button below to enter the element into fullscreen mode.
+        </em>
+      </p>
+      <div class="element" id="element">
+        <p>I change color in fullscreen mode!</p>
+      </div>
+      <br />
+      <button
+        onclick="var el = document.getElementById('element'); el.requestFullscreen();"
+      >
+        Go Full Screen!
+      </button>
+    </div>
+  </body>
+</html>
