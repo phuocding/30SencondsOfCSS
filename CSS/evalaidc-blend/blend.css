@@ -1,0 +1,25 @@
+.blend {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.blend img {
+  position: absolute;
+}
+
+.blend h1 {
+  font-size: 10rem;
+  mix-blend-mode: overlay;
+}
+
+/* Uncomment this section for a cool gray scale effect */
+/* .blend {
+  background-color: azure;
+}
+
+.blend img {
+  mix-blend-mode: luminosity;
+} */
