@@ -1,4 +1,5 @@
 .-shape-outside {
+  /* this line provides a pseudo radius to push objects away */
   shape-outside: circle(50%);
   float: right;
 }
