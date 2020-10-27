@@ -1,0 +1,27 @@
+.-shape-outside {
+  shape-outside: circle(50%);
+  float: right;
+}
+
+.circle {
+  width: 160px;
+  height: 160px;
+  background-color: #fff;
+  border-radius: 50%;
+  margin-left: 24px;
+  overflow: hidden;
+  border: 1px solid #eee;
+}
+
+.circle img {
+  width: 100%;
+  height: 100%;
+}
+
+div {
+  text-align: justify;
+}
+
+html, body {
+  height: auto;
+}
