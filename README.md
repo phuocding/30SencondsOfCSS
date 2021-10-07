@@ -1,5 +1,5 @@
 [![contributions welcome](https://img.shields.io/badge/contributions-welcome-brightgreen.svg?style=flat)](https://github.com/phuocding/30SencondsOfCSS/issues)
-[![HitCount](http://hits.dwyl.com/phuocding/30SencondsOfCSS.svg)](http://hits.dwyl.com/phuocding/30SencondsOfCSS)
+![Hits](https://hitcounter.pythonanywhere.com/count/tag.svg?url=https%3A%2F%2Fgithub.com%2Fphuocding%20%2F%2030SencondsOfCSS)
 [![GitHub issues](https://img.shields.io/github/issues/phuocding/30SencondsOfCSS.svg)](https://github.com/phuocding/30SencondsOfCSS/issues)
 [![GitHub forks](https://img.shields.io/github/forks/phuocding/30SencondsOfCSS.svg)](https://github.com/phuocding/30SencondsOfCSS/network)
 [![GitHub stars](https://img.shields.io/github/stars/phuocding/30SencondsOfCSS.svg)](https://github.com/phuocding/30SencondsOfCSS/stargazers)
