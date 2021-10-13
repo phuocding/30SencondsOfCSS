@@ -1,0 +1,57 @@
+@import url("https://fonts.googleapis.com/css?family=Rubik&display=swap");
+body {
+  font-family: "Rubik", sans-serif;
+  color: #424242;
+  font-size: 62.5%;
+  margin: 0 auto;
+  padding: 2%;
+}
+
+h1 {
+  font-size: 1.6rem;
+  margin: 1em;
+}
+
+button {
+  margin: 1em;
+  padding: 1em 2em;
+  font-size: 1.2rem;
+  cursor: pointer;
+  border: 0;
+  color: white;
+}
+button:nth-of-type(1) {
+  background: linear-gradient(90deg, #3f51b5 0%, #3f51b5 50%, #4caf50 50%, #4caf50 100%);
+  background-repeat: no-repeat;
+  background-size: 200% 100%;
+  background-position: right bottom;
+  transition: background-position 0.25s ease-out;
+}
+button:nth-of-type(1):hover {
+  background-position: left bottom;
+}
+button:nth-of-type(2) {
+  color: #424242;
+  background: linear-gradient(90deg, #e57373 0%, #e57373 50%, #ffee58 50%, #ffee58 100%);
+  background-repeat: no-repeat;
+  background-size: 200% 100%;
+  background-position: right bottom;
+  background-position: left bottom;
+  transition: background-position 0.25s ease-out;
+}
+button:nth-of-type(2):hover {
+  background-position: left bottom;
+  background-position: right bottom;
+}
+button:nth-of-type(3) {
+  background: linear-gradient(90deg, #1976d2 0%, #1976d2 50%, #311b92 50%, #311b92 100%);
+  background-repeat: no-repeat;
+  background-size: 200% 100%;
+  background-position: right bottom;
+  transition: background-position 0.25s ease-out;
+}
+button:nth-of-type(3):hover {
+  background-position: left bottom;
+}
+
+/*# sourceMappingURL=style.css.map */

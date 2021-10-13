@@ -1,0 +1,63 @@
+// Mixin
+@mixin background-transition($initial, $hover, $inversed: false) {
+  background: linear-gradient(
+    90deg,
+    $hover 0%,
+    $hover 50%,
+    $initial 50%,
+    $initial 100%
+  );
+  background-repeat: no-repeat;
+  background-size: 200% 100%;
+
+  background-position: right bottom;
+  @if $inversed {
+    background-position: left bottom;
+  }
+  transition: background-position 0.25s ease-out;
+
+  &:hover {
+    background-position: left bottom;
+    @if $inversed {
+      background-position: right bottom;
+    }
+  }
+}
+
+// Extra stuff
+@import url("https://fonts.googleapis.com/css?family=Rubik&display=swap");
+
+body {
+  font-family: "Rubik", sans-serif;
+  color: #424242;
+  font-size: 62.5%;
+  margin: 0 auto;
+  padding: 2%;
+}
+
+h1 {
+  font-size: 1.6rem;
+  margin: 1em;
+}
+
+button {
+  margin: 1em;
+  padding: 1em 2em;
+  font-size: 1.2rem;
+  cursor: pointer;
+  border: 0;
+  color: white;
+
+  &:nth-of-type(1) {
+    @include background-transition(#4caf50, #3f51b5);
+  }
+
+  &:nth-of-type(2) {
+    color: #424242;
+    @include background-transition(#ffee58, #e57373, true);
+  }
+
+  &:nth-of-type(3) {
+    @include background-transition(#311b92, #1976d2);
+  }
+}
