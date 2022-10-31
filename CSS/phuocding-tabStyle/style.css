@@ -1,0 +1,32 @@
+body {
+  background-color: #111;
+  display: grid;
+  height: 100vh;
+  margin: 0;
+  place-items: center center;
+}
+
+.tabs {
+  display: flex;
+  background-color: #eee;
+  border-radius: 8px;
+  padding: 5px;
+}
+
+.tabs .tab-item.active {
+  color: #6a5af9;
+  background-color: white;
+}
+
+.tabs .tab-item {
+  white-space: nowrap;
+  padding: 10px 15px;
+  cursor: pointer;
+  color: #999;
+  font-weight: 500;
+  flex: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: inherit;
+}
