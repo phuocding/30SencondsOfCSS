@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Leaderboard L2E</title>
+    <link rel="stylesheet" href="style.css" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  </head>
+  <body>
+    <div class="container-wrap">
+      <section id="leaderboard">
+        <nav class="ladder-nav">
+          <div class="ladder-title">
+            <h1>Standings</h1>
+          </div>
+          <div class="ladder-search">
+            <input
+              type="text"
+              id="search-leaderboard"
+              class="live-search-box"
+              placeholder="Search Team, Player..."
+            />
+          </div>
+        </nav>
+        <table id="rankings" class="leaderboard-results" width="100%">
+          <thead>
+            <tr>
+              <th>Rank</th>
+              <th>Team</th>
+              <th>Country</th>
+              <th>P1</th>
+              <th>P2</th>
+              <th>Games Played</th>
+              <th>PTS</th>
+            </tr>
+          </thead>
+          <tbody>
+            <!-- Load SCRIMcom Leaderboard Ranings -->
+          </tbody>
+        </table>
+      </section>
+    </div>
+
+    <script src="app.js"></script>
+  </body>
+</html>
