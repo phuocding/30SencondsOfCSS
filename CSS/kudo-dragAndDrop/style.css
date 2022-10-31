@@ -1,0 +1,54 @@
+body {
+  background-color: #241e48;
+}
+.container {
+  display: grid;
+  grid-template-columns: auto auto;
+}
+.left,
+.right {
+  width: 50%;
+  padding-left: 5%;
+  position: relative;
+}
+.left .item {
+  width: 300px;
+  height: 100px;
+  background-color: #18142f;
+  margin: 30px auto;
+  padding: 10px;
+  border-radius: 40px;
+  transition: 0.5s;
+  text-align: center;
+}
+.left .item img {
+  height: 100%;
+}
+.left .item:hover {
+  background-color: #5838d1;
+}
+.mockup {
+  width: 500px;
+  height: 600px;
+  background-image: url(shirt.png);
+  background-size: 100%;
+  background-repeat: no-repeat;
+  margin-top: 30px;
+  filter: drop-shadow(0 0 40px #121212);
+  position: relative;
+}
+.graphic {
+  width: 200px;
+  height: 200px;
+  position: absolute;
+  top: 200px;
+  left: 50%;
+  transform: translate(-50%);
+  transition: 0.3s;
+}
+.graphic.drag {
+  border: 5px dotted #232020;
+}
+.graphic img {
+  width: 100%;
+}
